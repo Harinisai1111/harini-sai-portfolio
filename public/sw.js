@@ -1,9 +1,9 @@
 const CACHE_NAME = 'harini-sai-portfolio-v1';
 const ASSETS_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/favicon.png'
+    './',
+    'index.html',
+    'manifest.json',
+    'favicon.png'
 ];
 
 self.addEventListener('install', (event) => {
