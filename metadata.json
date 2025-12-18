@@ -1,0 +1,7 @@
+{
+  "name": "Harini Sai Portfolio",
+  "description": "A cinematic, Netflix-style developer portfolio that showcases engineering growth through auto-updating GitHub data, a documentary-style journey, and professional credentials.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
