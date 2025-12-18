@@ -29,7 +29,7 @@ export const JOURNEY_DATA: JourneyItem[] = [
     organization: 'DAV Sr Secondary School',
     duration: '2010 - 2024',
     focus: ['Logic', 'Problem Solving', 'Creativity'],
-    description: 'A journey that started with simple scripts and evolved into building complex distributed systems. Driven by curiosity and the thrill of creation.'
+    description: 'Built strong foundations in logical thinking, mathematics, problem-solving, and disciplined learning through structured academic training.'
   },
   {
     type: 'Education',
@@ -60,30 +60,39 @@ export const JOURNEY_DATA: JourneyItem[] = [
 export const CREDENTIALS_DATA: Credential[] = [
   {
     id: '1',
-    title: 'AWS Certified Developer',
-    issuer: 'Amazon Web Services',
-    year: '2024',
-    importance: 'Validates cloud-native architecture skills and deployment best practices.',
-    application: 'Used to optimize infrastructure costs and scalability for various side projects.',
-    image: 'https://picsum.photos/seed/aws/400/600'
+    title: 'Smart India Hackathon',
+    issuer: 'SIH ',
+    year: '2025',
+    importance: 'Smart India Hackathon bridges academic learning with real-world problem solving by encouraging students to build practical, impactful technology solutions.',
+    application: 'It enables students to work on real problem statements, collaborate in teams, develop prototypes under deadlines, and present solutions to industry experts.',
+    image: '/certificates/SIH Certificate.jpg'
   },
   {
     id: '2',
-    title: 'Meta Frontend Professional',
-    issuer: 'Meta',
-    year: '2023',
-    importance: 'Comprehensive mastery of React ecosystem and modern UX principles.',
-    application: 'Applied in creating highly performant, accessible web applications.',
-    image: 'https://picsum.photos/seed/meta/400/600'
+    title: 'Algo University',
+    issuer: 'Algo',
+    year: '2025',
+    importance: 'The internship opportunity by Algo University provided exposure to structured technical evaluations and real-world expectations in competitive engineering environments.',
+    application: 'Clearing up to the second round demonstrated strong problem-solving ability, coding fundamentals, and adaptability under assessment-based selection processes.',
+    image: '/certificates/Certificate_Harini_Sai_B.jpg'
   },
   {
     id: '3',
-    title: 'Google Cloud Engineer',
-    issuer: 'Google',
-    year: '2023',
-    importance: 'Expertise in managing distributed data pipelines and storage solutions.',
-    application: 'Informed the data architecture of large-scale hackathon winners.',
-    image: 'https://picsum.photos/seed/google/400/600'
+    title: 'AI for Beginners',
+    issuer: 'HP',
+    year: '2025',
+    importance: 'This course provided a foundational understanding of artificial intelligence, its core concepts, and its ethical and real-world impact across industries.',
+    application: 'The knowledge gained helps in understanding AI-driven systems, data importance, and informed decision-making when working with or building technology-enabled solutions.',
+    image: '/certificates/certificate.pdf'
+  },
+  {
+    id: '4',
+    title: 'Programming In Java',
+    issuer: 'NPTEL',
+    year: '2025',
+    importance: 'The NPTEL Programming in Java course strengthened core object-oriented programming concepts and built a solid foundation in Java for scalable software development.',
+    application: 'The course knowledge is applied in writing structured, efficient Java programs, implementing OOP principles, and solving real-world programming problems.',
+    image: '/certificates/Programming In Java.pdf'
   }
 ];
 

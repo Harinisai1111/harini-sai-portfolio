@@ -1,0 +1,17 @@
+{
+    "name": "Harini Sai | Software Engineer",
+    "short_name": "Harini Sai",
+    "description": "Professional Portfolio of Harini Sai",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#E50914",
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
