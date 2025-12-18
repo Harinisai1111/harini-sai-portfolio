@@ -92,9 +92,9 @@ const App: React.FC = () => {
           <h2 className="text-5xl font-black text-neutral-800 tracking-tighter uppercase italic opacity-50">Harini Sai</h2>
 
           <div className="flex flex-wrap justify-center gap-10 text-neutral-500 font-black uppercase italic text-sm tracking-[0.2em]">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">Instagram</a>
+            <a href="https://www.instagram.com/_harinisai_?igsh=MXR0bWEzZWxrbnY4eA==" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">Instagram</a>
             <a href="https://github.com/Harinisai1111" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/harini-sai-848b3a33a/" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors">LinkedIn</a>
           </div>
 
           <div className="space-y-2">
