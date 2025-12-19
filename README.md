@@ -2,19 +2,67 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-This contains everything you need to run your app locally.
+# Harini Sai Portfolio
 
-View your app in AI Studio: https://ai.studio/apps/drive/1v282XDOncw7V18DCDuZBGacrMq2Rq91V
+A self-updating portfolio system that ingests GitHub data, normalizes repositories into episodic project narratives, and renders them in a Netflix-style UI.
 
-## Run Locally
+## 🚀 Key Features
 
-**Prerequisites:**  Node.js
+- **Automated GitHub Sync**: Automatically pulls repository metadata and README contents into Supabase.
+- **Production Timeline**: Generates a "Production Timeline" for each project by grouping commits into development sprints.
+- **AI-Powered Imagery**: Dynamically assigns high-fidelity cover images based on project language and keywords.
+- **Netflix-Style UI**: Immersive experience with hero sections, horizontal rows, and detailed project modals.
+- **Responsive Design**: Optimized for all devices with smooth Framer Motion animations.
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS, Framer Motion, Lucide React
+- **Backend & Database**: Supabase
+- **Data Ingestion**: GitHub GraphQL API, Octokit
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- Supabase Project
+- GitHub Personal Access Token
+
+### Local Setup
+
+1. **Clone and Install**:
+   ```bash
+   npm install
+   ```
+
+2. **Environment Variables**:
+   Create a `.env.local` file with the following:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   VITE_GITHUB_TOKEN=your_github_token
+   ```
+
+3. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+## 🔄 Synchronization
+
+The portfolio uses two sync scripts to stay updated with your GitHub activity:
+
+- `npm run sync`: Quick sync for repository metadata and READMEs.
+- `npm run sync:full`: Comprehensive sync that also fetches commits and builds the project timelines.
+
+> [!NOTE]
+> The GitHub Actions workflow is configured to run `sync:full` every 12 hours to keep the Production Timeline up to date.
+
+## 📄 License
+
+© 2024 HARINI SAI PRODUCTIONS. ALL RIGHTS RESERVED.
